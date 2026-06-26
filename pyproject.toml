@@ -1,0 +1,14 @@
+[project]
+name = "python-study-start"
+version = "0.1.0"
+description = "A tiny runnable Python project for learning Python syntax through a real CLI app."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = []
+
+[tool.uv]
+package = false
+
