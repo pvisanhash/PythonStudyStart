@@ -64,12 +64,17 @@ uv run python -m unittest
 
 ## 建议阅读顺序
 
-1. `python_study_start/__main__.py`：程序入口是什么。
-2. `python_study_start/cli.py`：命令行参数如何转成程序行为。
-3. `python_study_start/models.py`：类、dataclass、方法、异常、数据结构。
-4. `python_study_start/storage.py`：文件读写、JSON、上下文管理器。
-5. `python_study_start/syntax_tour.py`：把常见 Python 语法集中演示一遍。
-6. `tests/test_taskbook.py`：如何验证代码行为。
+如果你是小白，建议按这个顺序读，不要一上来就把所有文件都啃完：
+
+1. `python_study_start/__main__.py`：先理解程序从哪里开始运行。
+2. `python_study_start/cli.py`：再看命令行参数如何转成程序行为。
+3. `python_study_start/models.py`：学习变量、类型标注、类、方法、异常和数据结构。
+4. `python_study_start/report.py`：学习字符串格式化和把数据渲染成文本。
+5. `python_study_start/storage.py`：学习文件读写、JSON 和上下文管理器。
+6. `python_study_start/syntax_tour.py`：集中复习常见 Python 语法，从基础看到进阶。
+7. `tests/test_taskbook.py`：最后看单元测试，理解如何验证代码行为。
+
+每个主要源码文件里都加了“第几阶段”的注释。阅读时可以先看注释，再运行命令观察输出，最后尝试改一两行代码。
 
 ## 语法导览覆盖点
 
